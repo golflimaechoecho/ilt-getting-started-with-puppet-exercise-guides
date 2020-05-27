@@ -63,7 +63,7 @@ In the Visual Studio Code application add resources to the `time` class.
     * Create a case statement that uses the `$facts['kernel']` fact to apply the `winntp` class to Windows and apply the `ntp` class as the default selection.
 
         ```ruby
-        class time {  
+        class time {
           $servers = ['time.google.com']
 
           case $facts['kernel'] {
@@ -136,6 +136,8 @@ Optionally, add the time module to the platform you did not use for the earlier 
 As the `centos` user on Linux run:
 
 ```git clone git@gitlab.classroom.puppet.com:puppet/time.git```
+
+```cd time```
 
 ```git fetch origin studentN```
 
