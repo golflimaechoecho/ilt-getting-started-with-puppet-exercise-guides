@@ -42,7 +42,7 @@ Time is a perfect module to add to the `base` profile: that is, a profile that s
     }
     ```
 
-### Convert the profile module using the Pupppet Developer Kit
+### Convert the profile module using the Puppet Developer Kit
 
 1. Change directories to `control-repo/site/profile`
 
@@ -89,7 +89,7 @@ For this example, you will ensure all bastion hosts have the `base` profile appl
     }
     ```
 
-### Convert the role module using the Pupppet Developer Kit
+### Convert the role module using the Puppet Developer Kit
 
 1. Change directories to `control-repo/site/role`
 

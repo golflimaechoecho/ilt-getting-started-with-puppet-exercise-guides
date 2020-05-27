@@ -43,7 +43,7 @@ Time is a perfect module to add to the `base` profile: that is, a profile that s
   }
 ```
 
-### Convert the profile module using the Pupppet Developer Kit
+### Convert the profile module using the Puppet Developer Kit
 
 1. Change directories to `C:\Users\Administrator\control-repo\site\profile`
 
@@ -80,7 +80,7 @@ Now that you have a `base` profile, increase your level of abstraction by placin
 
 For this example, you will ensure all bastion hosts have the `base` profile applied. It applies the class `ntp` or `winntp` to Linux or Windows respectively.
 
-### Convert the role module using the Pupppet Developer Kit
+### Convert the role module using the Puppet Developer Kit
 
 1. Change directories to `C:\Users\Administrator\control-repo\site\role`
 
